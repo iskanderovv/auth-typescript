@@ -14,7 +14,7 @@ const BasicInfo = ({ current, handleNext, handleBack }: Props) => {
     name?: string;
   };
 
-  const onFinish: FormProps<FieldType>["onFinish"] = (values) => {
+  const onFinish: FormProps<FieldType>["onFinish"] = () => {
     handleNext();
   };
 

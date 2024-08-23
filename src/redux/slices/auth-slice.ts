@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { AuthSliceInitialState } from "../../types/initialStateTypes";
-import type { PayloadAction } from '@reduxjs/toolkit'
 
 
 

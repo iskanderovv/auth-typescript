@@ -26,7 +26,7 @@ const VisualInfo = ({current, handleNext, handleBack} : Props) => {
     console.log("Failed:", errorInfo);
   };
 
-  const handleUploadFiles = ({file, fileList} : {file: any, fileList: any}) => {
+  const handleUploadFiles = ({fileList} : {file: any, fileList: any}) => {
     const formData = new FormData();
 
     for(let i = 0; i < fileList.length; i++){
